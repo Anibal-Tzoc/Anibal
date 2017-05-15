@@ -1,10 +1,13 @@
 
+}
+
 header,footer,aside,nav,article{
 	display: block;
 }
 body{
-	margin: 0 auto;
-	width: 940px;
+		margin:0 auto;
+	width:840px;
+	height:50px;
 	font: 13px/22px helvetica,arial,sans-serif;
 	background: #f0f0f0;
 }
@@ -26,6 +29,7 @@ nav{
 	left: 0;
 	width: 100%;
 	background: url("nav_background.png");
+
 }
 nav ul{
 	margin: 0 auto;
@@ -62,16 +66,13 @@ nav ul li.subsribe a {
 	
 	padding: 44px;
 	background: #467612 url("intro_background.png") repeat-x;
-	background-size: 100% auto;
+	background-size: 100%;
 	border-radius: 22px;
 
-}
-#intro{
-	
-	-webkit-background-size:100%;
+-webkit-background-size:100%;
 	-o-background-size:100%;
 	-khtml-background-size:100%;
-
+	
 	-moz-border-radius:22px;
 	-webkit-border-radius:22px;
 }
@@ -98,7 +99,8 @@ nav ul li.subsribe a {
 	height: auto;
 }
 #content{
-	display: table;
+	/*display: table;*/
+	margin-left:1px;
 }
 #maincontent{
 	display: table-cell;
